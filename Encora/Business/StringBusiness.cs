@@ -7,18 +7,15 @@ namespace Encora.Business
 {
     public class StringBusiness: IStringBusiness
     {
-        public async Task<String> GetStringSortedFrequency(string param)
+       public Task<string> GetStringSortingOperations(string param)
         {
-
             char[] tempArray = param.ToCharArray();
 
             var res = tempArray.OrderByDescending(n =>
                        tempArray.Count(x => x == n)).ThenBy(n => n);
 
-            return string.Join("", res);
+            return Task.FromResult(string.Join("", res));
         }
-
-        
     }
 }
 

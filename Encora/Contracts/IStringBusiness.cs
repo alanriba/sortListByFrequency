@@ -5,7 +5,7 @@ namespace Encora.Contracts
 {
     public interface IStringBusiness
     {
-        Task<String> GetStringSortedFrequency(string param);
+        public Task<string> GetStringSortingOperations(string param);
     }
 }
 

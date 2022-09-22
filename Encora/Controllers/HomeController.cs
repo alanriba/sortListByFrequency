@@ -8,7 +8,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Encora.Controllers
 {
-
     [ApiExplorerSettings(GroupName = "1.0")]
     [Produces("application/json")]
     [Route("api/[controller]")]
@@ -40,7 +39,7 @@ namespace Encora.Controllers
         [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
         public async Task<ActionResult<String>> StringSorted([FromQuery] String param)
         {
-            return await stringBusiness.GetStringSortedFrequency(param);
+            return await stringBusiness.GetStringSortingOperations(param);
         }
         #endregion
     }
