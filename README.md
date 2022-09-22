@@ -1,5 +1,5 @@
-# sorteListByFrequency
-Corresponds to the API that returns a string sorted by repetition frequency.
+# sortStringByFrequency
+Corresponds to the API that returns a string sort by repetition frequency.
 
 ## Start 🚀
 These instructions will allow you to get a copy of the project running on your local machine for development and testing purposes.
@@ -42,7 +42,7 @@ eject git clone https://github.com/libgit2/libgit2 mylibgit
 ### Compilation 📦
 To compile the project, it can be done from the menu _Compile > Compile Solution_ or _Recompile Solution_.
 
-### Despliegue
+### Deployment
 Each time the application needs to be started, just execute from menu _Debug > Start debugging_ or _Start without debugging_.
 
 ### Local Test
@@ -62,6 +62,8 @@ http://localhost:5000/api/Home/sorted?param=abaccadcc
 
 ### Unit Test
 ![image](https://user-images.githubusercontent.com/25330708/191766824-7c3b22d3-7ee3-4333-ad71-0eef6b130242.png)
+
+
 
 
     
